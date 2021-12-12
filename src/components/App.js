@@ -8,11 +8,12 @@ function App() {
   const appClass = check ? "App dark" : "App light"
   
   const handleCLick = () => {
-    if(appClass === "App light"){
-      return setCheck(appClass)
-    } else {
-      return setCheck(!appClass)
-    }
+    // if(appClass === "App light"){
+    //   return setCheck(appClass)
+    // } else {
+    //   return setCheck(!appClass)
+    // }
+   setCheck(!check)
 }
 
 
